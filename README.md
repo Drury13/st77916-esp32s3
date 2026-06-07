@@ -1,6 +1,7 @@
 #This is a copy of https://github.com/freddy-/st77916-esp32 with remapped pins 
 # 1.53" ST77916 QSPI with ESP32S3
 
+<img src="./st77916-esp32s3.gif"/>
 ---
 
 ### Dependencies
