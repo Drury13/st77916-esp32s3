@@ -1,6 +1,5 @@
-# 1.53" ST77916 QSPI with ESP32-D0WDQ6
-
-<img src="./devboard.jpg" alt="drawing" width="300"/>
+#This is a copy of https://github.com/freddy-/st77916-esp32 with remapped pins 
+# 1.53" ST77916 QSPI with ESP32S3
 
 ---
 
@@ -11,7 +10,7 @@
 ---
 
 ### Hardware
-- ESP32-D0WDQ6
+- ESP32S3
 
 - 1.53" ST77916 Quad SPI
 ---
@@ -29,22 +28,16 @@ Using the initialization code `st77916_150_init_operations` from [Arduino_GFX](h
 ### Wiring
 | Display    | ESP32 |
 |------------|-------|
-| GND        | GND   |
-| VCC        | 5v    |
-| SCL        | 18    |
-| SDA (IO 0) | 19    |
-| IO 1       | 23    |
-| IO 2       | 21    |
-| IO 3       | 22    |
-| RST        | 4     |
-| CS         | 5     |
-| BL         | 17    |
-| TE         | -     |
+  GND          GND
+  VCC          5v
+  SCL          12
+  SDA (IO 0)   11
+  IO 1         13
+  IO 2         14
+  IO 3         15
+  RST          4
+  CS           5
+  BL           17
+  TE           -
 
-### Issues
 
-Besides the initialization code, I had a issue with the development board that I used in this test, the Lolin32 Lite.
-
-The GPIO21(VSPIHD) was not routed to a pin in the board. I had to bodge a wire directly to the IC pad.
-
-<img src="./bodge.jpg" alt="drawing" width="500"/>
