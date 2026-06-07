@@ -28,16 +28,16 @@ Using the initialization code `st77916_150_init_operations` from [Arduino_GFX](h
 ### Wiring
 | Display    | ESP32 |
 |------------|-------|
-  GND          GND
-  VCC          5v
-  SCL          12
-  SDA (IO 0)   11
-  IO 1         13
-  IO 2         14
-  IO 3         15
-  RST          4
-  CS           5
-  BL           17
-  TE           -
+| GND        | GND   |
+| VCC        | 5v    |
+| SCL        | 12    |
+| SDA (IO 0) | 11    |
+| IO 1       | 13    |
+| IO 2       | 14    |
+| IO 3       | 15    |
+| RST        | 4     |
+| CS         | 5     |
+| BL         | 17    |
+| TE         | -     |
 
 
